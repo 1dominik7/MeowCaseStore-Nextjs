@@ -42,5 +42,6 @@ export function constructMetadata({
       creator: "@dominikDev",
     },
     icons,
+    metadataBase: new URL("https://meow-case-store-nextjs.vercel.app/")
   };
 }

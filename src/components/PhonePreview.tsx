@@ -38,7 +38,12 @@ const PhonePreview = ({
   if (color === "rose") caseBackgroundColor = "bg-rose-950";
 
   return (
-    <AspectRatio ref={ref} ratio={3000 / 2001} className="relative">
+    <AspectRatio
+      // @ts-ignore
+      ref={ref}
+      ratio={3000 / 2001}
+      className="relative"
+    >
       <div
         className="absolute z-20 scale-[1.0352]"
         style={{
